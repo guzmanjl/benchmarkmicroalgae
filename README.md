@@ -13,7 +13,7 @@ It is built upon a **high-fidelity, experimentally calibrated dynamic model** ca
 
 A closed-loop simulation environment is provided, including realistic actuator constraints, gas transport delays, stiff integration, and a fully specified multi-day outdoor disturbance scenario (irradiance, temperature, wind, and humidity).
 
-A paper describing the bechmark and process equations can be found in open access at [https://doi.org/10.1016/j.conengprac.2026.107027](https://doi.org/10.1016/j.conengprac.2026.107027)]
+A paper describing the bechmark and process equations can be found in open access at [https://doi.org/10.1016/j.conengprac.2026.107027](https://doi.org/10.1016/j.conengprac.2026.107027)
 
 ---
 ## IFAC World Congress 2026 - Bechmark competition
