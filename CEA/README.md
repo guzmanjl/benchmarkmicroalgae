@@ -16,6 +16,11 @@
 
 El **Concurso en Ingeniería de Control 2027 (CIC2027)**, organizado por el **Grupo Temático de Ingeniería de Control del Comité Español de Automática (CEA)** junto con el grupo de **Automática, Robótica y Mecatrónica** de la **Universidad de Almería**, propone un benchmark basado en la operación de un reactor abierto tipo *raceway* destinado al cultivo de microalgas.
 
+<div align="center">
+  <img src="doc/raceway.png" alt="Reactor raceway para el cultivo de microalgas" width="700">
+  <p><em>Reactores raceway para la producción de biomasa de microalgas.</em></p>
+</div>
+
 El objetivo es que equipos de estudiantes diseñen y evalúen estrategias de control para regular las principales variables del proceso y, en su caso, mejorar la productividad de biomasa respetando las restricciones de operación. El benchmark también constituye un recurso docente para asignaturas de identificación, control y optimización de procesos.
 
 ## Categorías del concurso
