@@ -48,6 +48,6 @@ Se recomienda leer **ambos documentos** antes de desarrollar una propuesta. Las 
 ## Organización
 
 **Grupo Temático de Ingeniería de Control — Comité Español de Automática (CEA)**  
-Con la participación del Grupo de Automática, Robótica y Mecatrónica (ARM, TEP-197), Universidad de Almería / CIESOL.
+**Grupo de Automática, Robótica y Mecatrónica (ARM, TEP-197), Universidad de Almería / CIESOL**.
 
-[Web del Grupo Temático de Ingeniería de Control](https://www.ceautomatica.es/og/ingenieria-de-control)
+[Web del Grupo Temático de Ingeniería de Control](https://www.ceautomatica.es/es/grupos/ingenieria-de-control)
