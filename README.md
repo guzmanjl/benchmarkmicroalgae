@@ -15,6 +15,48 @@ A closed-loop simulation environment is provided, including realistic actuator c
 
 A paper describing the bechmark and process equations can be found in open access at [https://doi.org/10.1016/j.conengprac.2026.107027](https://doi.org/10.1016/j.conengprac.2026.107027)
 
+The benchmark has been used in two international and national
+educational initiatives: the **Benchmark Competition at the IFAC
+World Congress 2026** and the **2027 Control Engineering Competition
+(CIC2027)** organized by the Control Engineering Thematic Group
+of the Spanish Committee of Automatic Control (CEA).
+
+Both competitions use the same microalgae raceway process while
+proposing challenge-specific control tasks and evaluation conditions.
+
+The corresponding competition materials are available in
+[IFAC_WC_player/](IFAC_WC_player/) and [CEA/](CEA/), respectively.
+
+---
+
+## CEA Control Engineering Competition 2027 (CIC2027)
+
+The **2027 Control Engineering Competition (CIC2027)**, organized
+by the **Control Engineering Thematic Group of the Spanish Committee
+of Automatic Control (CEA)**, uses this benchmark to challenge
+student teams to design, implement, and evaluate control strategies
+for a microalgae raceway reactor.
+
+The competition offers two categories:
+
+- **Category 1 – PID Control:** Regulation of pH, dissolved oxygen,
+  and temperature, with fixed harvesting and dilution operations.
+  Primarily aimed at undergraduate students.
+
+- **Category 2 – Efficient Control and Operation:** Control of the
+  same process variables together with harvesting and dilution
+  management to improve biomass productivity subject to operating
+  constraints. Primarily aimed at master's and doctoral students.
+
+Full competition rules, the technical problem description, and
+MATLAB files for both categories are available in the
+**[CIC2027 competition folder](CEA/)**.
+
+Please consult the official
+[competition rules](CEA/doc/CIC2027_Bases.pdf) and
+[technical description](CEA/doc/CIC2027_Descripcio%CC%81n.pdf)
+before participating.
+
 ---
 ## IFAC World Congress 2026 - Bechmark competition
 
@@ -34,32 +76,46 @@ Participants are invited to read the benchmark challenge instructions in [Handbo
 
 The main entry point for users is the `player/` folder. 
 
-For users participating in the IFAC World Congress bechmark problem, is `IFAC_WC_player/` folder ([download](https://downgit.github.io/#/home?url=https://github.com/guzmanjl/benchmarkmicroalgae/tree/main/IFAC_WC_player)):
+For users participating in the IFAC World Congress bechmark problem, is `IFAC_WC_player/` folder ([download](https://downgit.github.io/#/home?url=https://github.com/guzmanjl/benchmarkmicroalgae/tree/main/IFAC_WC_player)).
+
+For users participating in CIC2027, is [CEA/](CEA/).
 
 ```text
 benchmarkmicroalgae/
-│
-├── player/
-│   ├── Benchmark_main.m                % Main simulation launcher
-│   ├── controller_pH_OnOff.m           % Example pH controller
-│   ├── controller_DO_OnOff.m           % Example DO controller
-│   ├── controller_HD_fixed.m           % Example harvest/dilution strategy
-│   ├── controller_Temp_HX_no_control.m % Example temperature controller
-│   └── ...
-│
-├── IFAC_WC_player/
-│   ├── Benchmark_main.m                % Main simulation launcher
-│   ├── controller_pH.m                 % Example pH controller
-│   ├── controller_DO.m                 % Example DO controller
-│   ├── controller_Temp_HX.m            % Example temperature controller
-│   ├── Handbook_Benchmark_IFACWC.pdf   % Instructions for IFAC WC Benchmark competition 
-│   └── ...
-│
-├── simulate_benchmark_model.p          % Dynamic process model
-├── Data_Benchmark.mat                  % Disturbance scenarios and parameters
-├── load_data.m                         % Auxiliary script to load data and parameters
-├── show_results.m                      % Auxiliary script to show the results
-└── README.md
+|
+|-- CEA/
+|   |-- README.md
+|   |-- CIC2027_C1/
+|   |   |-- Benchmark_main.m
+|   |   |-- Data_Benchmark_ext.mat
+|   |   |-- controller_pH.m
+|   |   |-- controller_DO.m
+|   |   |-- controller_Temp_HX.m
+|   |   |-- ejemplos_PI/
+|   |   `-- sources/
+|   |
+|   |-- CIC2027_C2/
+|   |   |-- Benchmark_main.m
+|   |   |-- Data_Benchmark_ext.mat
+|   |   |-- controller_pH.m
+|   |   |-- controller_DO.m
+|   |   |-- controller_Temp_HX.m
+|   |   |-- controller_HD.m
+|   |   |-- ejemplos_PI/
+|   |   `-- sources/
+|   |
+|   `-- doc/
+|       |-- CIC2027_Bases.pdf
+|       |-- CIC2027_Descripción.pdf
+|       `-- raceway.png
+|
+|-- IFAC_WC_player/
+|-- player/
+|-- simulate_benchmark_model.p
+|-- Data_Benchmark.mat
+|-- load_data.m
+|-- show_results.m
+`-- README.md
 ```
 
 
