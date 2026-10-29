@@ -36,8 +36,8 @@ GitHub muestra automáticamente el listado actualizado de archivos y carpetas en
 
 | Carpeta / archivo | Contenido |
 |:--|:--|
-| 📁 [CIC2027_C1/](CIC2027_C1/) | Código MATLAB, datos del benchmark, controladores y ejemplos para la categoría 1. |
-| 📁 [CIC2027_C2/](CIC2027_C2/) | Código MATLAB, datos del benchmark, controladores y ejemplos para la categoría 2. |
+| 📁 [CIC2027_C1/](CIC2027_C1/) | Código MATLAB, datos del benchmark, controladores y ejemplos para la categoría 1 [Descargar](https://downgit.github.io/#/home?url=https://github.com/guzmanjl/benchmarkmicroalgae/tree/main/CEA/CIC2027_C1). |
+| 📁 [CIC2027_C2/](CIC2027_C2/) | Código MATLAB, datos del benchmark, controladores y ejemplos para la categoría 2 [Descargar](https://downgit.github.io/#/home?url=https://github.com/guzmanjl/benchmarkmicroalgae/tree/main/CEA/CIC2027_C2). |
 | 📁 [doc/](doc/) | Documentación oficial del concurso en PDF. |
 | 📄 `README.md` | Esta página de presentación. |
 
