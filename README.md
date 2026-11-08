@@ -363,8 +363,26 @@ Baseline regulatory architectures (On/Off, PI/PID, and Economic MPC) are include
 
 ## License and Citation
 
-Please cite the associated publication if you use this benchmark in academic or industrial work.
-Licensing information is provided in the repository.
+This repository uses **two licenses**, depending on the material:
+
+- **MATLAB source code (`.m`) and executable simulator (`.p`):** [MIT License](LICENSE). Retain the copyright and permission notices when redistributing software.
+- **Benchmark datasets (`.mat`), model descriptions, figures, and original documentation:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-DATA.md). Give appropriate credit, link to the license, and indicate changes.
+
+The associated journal paper is **not relicensed** by this repository; the publisher's terms apply. Any third-party content remains subject to its own terms.
+
+### How to cite
+
+**If you use the benchmark data, mathematical models, simulator, or control examples in research, please cite both the associated scientific paper and this repository.** The repository's [CITATION.cff](CITATION.cff) supplies citation metadata for GitHub's **Cite this repository** feature.
+
+Associated publication:
+
+Rodríguez-Miranda, E., Otálora, P., González-Hernández, J., Guzmán, J. L., & Berenguel, M. (2026). *A comprehensive benchmark platform for process control research of outdoor microalgae raceway reactors*. **Control Engineering Practice, 174**, 107027. https://doi.org/10.1016/j.conengprac.2026.107027
+
+Suggested repository acknowledgment:
+
+> This work uses the Microalgae Raceway Reactor Control Benchmark (https://github.com/guzmanjl/benchmarkmicroalgae). The MATLAB software is distributed under the MIT License and the benchmark data and original documentation under CC BY 4.0.
+
+For reproducibility, identify the repository release or commit used and disclose any modifications. Attribution is legally required as specified in the respective licenses; citing the paper is a strongly requested scholarly practice, not an additional license restriction.
 
 ---
 
