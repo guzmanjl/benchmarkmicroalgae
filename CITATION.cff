@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use the benchmark, its data, models, or simulator in research, please cite this repository and the associated journal article."
+title: "Microalgae Raceway Reactor Control Benchmark"
+type: software
+authors:
+  - family-names: "Rodríguez Miranda"
+    given-names: "Enrique"
+  - family-names: "Otálora Berenguel"
+    given-names: "Pablo"
+  - family-names: "González Hernández"
+    given-names: "José"
+  - family-names: "Guzmán Sánchez"
+    given-names: "José Luis"
+repository-code: "https://github.com/guzmanjl/benchmarkmicroalgae"
+url: "https://github.com/guzmanjl/benchmarkmicroalgae"
+license: MIT
+preferred-citation:
+  type: article
+  title: "A comprehensive benchmark platform for process control research of outdoor microalgae raceway reactors"
+  authors:
+    - family-names: "Rodríguez Miranda"
+      given-names: "Enrique"
+    - family-names: "Otálora Berenguel"
+      given-names: "Pablo"
+    - family-names: "González Hernández"
+      given-names: "José"
+    - family-names: "Guzmán Sánchez"
+      given-names: "José Luis"
+    - family-names: "Berenguel"
+      given-names: "Manuel"
+  journal: "Control Engineering Practice"
+  year: 2026
+  volume: 174
+  doi: "10.1016/j.conengprac.2026.107027"
